@@ -8,7 +8,7 @@ return kittens
 }
 
 
-function destructivelyPrependKitten(array){
+function destructivelyPrependKitten(name){
   array.unshift(name)
-  return array
+  return kittens
 }
