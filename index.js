@@ -10,4 +10,5 @@ return kittens
 
 function destructivelyPrependKitten(array){
   array.(name)
+  return array
 }
