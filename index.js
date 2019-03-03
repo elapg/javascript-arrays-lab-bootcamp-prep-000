@@ -9,6 +9,6 @@ return kittens
 
 
 function destructivelyPrependKitten(array){
-  array.(name)
+  array.unshift(name)
   return array
 }
