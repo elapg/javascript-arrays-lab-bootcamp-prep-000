@@ -9,5 +9,6 @@ return kittens
 
 
 function destructivelyPrependKitten(name){
-  return kittens
+  kittens = [ "Milo", "Otis", "Garfield" ]
+  destructivelyPrependKitten ("Bob")
 }
