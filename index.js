@@ -8,6 +8,6 @@ return kittens
 }
 
 
-function destructivelyPrependKitten(name){
-  array.unshift
+function destructivelyPrependKitten(array){
+  array.unshift(name)
 }
